@@ -1,88 +1,74 @@
 # Event Dispatcher
 
-The project structure tree is the following:
-```
+The general project structure tree is the following:
+
+```tex
 .
 ├── docs
 │   └── (...)
 ├── doxygen
+│   ├── html -> ../docs
+│   ├── images
+│   │   └── (...)
 │   ├── customdoxygen.css
 │   ├── Doxyfile
 │   ├── DoxygenLayout.xml
-│   ├── extract_template.sh
 │   ├── footer.html
-│   ├── header.html
-│   ├── html -> ../docs
-│   ├── images
-│   └── latex
-│       └── (...)
-├── LICENSE
-├── pom.xml
-├── README.md
+│   └── header.html
 ├── src
 │   ├── main
 │   │   ├── java
 │   │   │   └── com
 │   │   │       └── fermod
-│   │   │           ├── event
-│   │   │           │   ├── EventPublisher.java
-│   │   │           │   └── ValueChangeListener.java
-│   │   │           └── observer
-│   │   │               └── ObservedValue.java
+│   │   │           └── (...)
 │   │   └── resources
 │   │       └── log4j2.xml
 │   └── test
 │       ├── java
 │       │   └── com
 │       │       └── fermod
-│       │           ├── contract
-│       │           │   ├── ComparableContract.java
-│       │           │   ├── EqualsContract.java
-│       │           │   └── Testable.java
-│       │           ├── data
-│       │           │   └── serializable
-│       │           │       └── PersonTest.java
-│       │           ├── EqualsTest.java
-│       │           ├── extension
-│       │           │   └── TimingExtension.java
-│       │           ├── Log4jTest.java
-│       │           ├── ObservableValueTest.java
-│       │           └── util
-│       │               └── TestUtilities.java
+│       │           └── (...)
 │       └── resources
-└── target
-    ├── classes
-    │   ├── com
-    │   │   └── fermod
-    │   │       ├── event
-    │   │       │   ├── EventPublisher.class
-    │   │       │   └── ValueChangeListener.class
-    │   │       └── observer
-    │   │           └── ObservedValue.class
-    │   ├── log4j2.xml
-    │   └── META-INF
-    │       ├── MANIFEST.MF
-    │       └── maven
-    │           └── com.fermod
-    │               └── event-dispatcher
-    │                   ├── pom.properties
-    │                   └── pom.xml
-    ├── logs
-    └── test-classes
-        └── com
-            └── fermod
-                ├── contract
-                │   ├── ComparableContract.class
-                │   ├── EqualsContract.class
-                │   └── Testable.class
-                ├── data
-                │   └── serializable
-                │       └── PersonTest.class
-                ├── EqualsTest.class
-                ├── extension
-                │   └── TimingExtension.class
-                ├── Log4jTest.class
-                ├── ObservableValueTest.class
-                └── util
-                    └── TestUtilities.class
+├── target
+│   ├── classes
+│   │   ├── com
+│   │   │   └── fermod
+│   │   │       ├── event
+│   │   │       │   └── (...)
+│   │   │       └── observer
+│   │   │           └── (...)
+│   │   ├── META-INF
+│   │   │   ├── maven
+│   │   │   │   └── com.fermod
+│   │   │   │       └── event-dispatcher
+│   │   │   │           ├── pom.properties
+│   │   │   │           └── pom.xml
+│   │   │   └── MANIFEST.MF
+│   │   └── log4j2.xml
+│   ├── generated-sources
+│   │   └── annotations
+│   ├── generated-test-sources
+│   │   └── test-annotations
+│   ├── logs
+│   │   └── (...)
+│   ├── maven-status
+│   │   └── maven-compiler-plugin
+│   │       ├── compile
+│   │       │   └── default-compile
+│   │       │       ├── createdFiles.lst
+│   │       │       └── inputFiles.lst
+│   │       └── testCompile
+│   │           └── default-testCompile
+│   │               ├── createdFiles.lst
+│   │               └── inputFiles.lst
+│   ├── surefire-reports
+│   │   ├── com.fermod.ObservableValueTest.txt
+│   │   └── TEST-com.fermod.ObservableValueTest.xml
+│   └── test-classes
+│       └── com
+│           └── fermod
+│               └── (...)
+├── LICENSE
+├── pom.xml
+└── README.md
 ```
