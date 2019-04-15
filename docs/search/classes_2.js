@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log4jexample',['Log4jExample',['../classcom_1_1fermod_1_1Log4jExample.html',1,'com::fermod']]]
+  ['observedvalue',['ObservedValue',['../d8/d55/classcom_1_1fermod_1_1observer_1_1ObservedValue.html',1,'com::fermod::observer']]]
 ];

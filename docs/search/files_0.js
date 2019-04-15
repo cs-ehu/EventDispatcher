@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['comparablecontract_2ejava',['ComparableContract.java',['../ComparableContract_8java.html',1,'']]]
+  ['consolelogger_2ejava',['ConsoleLogger.java',['../d6/de7/ConsoleLogger_8java.html',1,'']]]
 ];
