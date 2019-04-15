@@ -24,8 +24,6 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Event Dispatcher", "index.html", [
-    [ "Project Maven Site", "site/index.html", null ],
-    [ "Project Tree", "tree.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -47,7 +45,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"ComparableContract_8java.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

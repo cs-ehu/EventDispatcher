@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['comparablecontract',['ComparableContract',['../interfacecom_1_1fermod_1_1contract_1_1ComparableContract.html',1,'com::fermod::contract']]]
+  ['consolelogger',['ConsoleLogger',['../d0/d1e/classcom_1_1fermod_1_1logger_1_1ConsoleLogger.html',1,'com::fermod::logger']]]
 ];

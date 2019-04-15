@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log4jexample_2ejava',['Log4jExample.java',['../Log4jExample_8java.html',1,'']]]
+  ['observedvalue_2ejava',['ObservedValue.java',['../dd/dda/ObservedValue_8java.html',1,'']]]
 ];
